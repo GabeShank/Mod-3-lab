@@ -1,1 +1,15 @@
-print('hello')
+stars = ('*')*36
+print()
+print('My Coffee and Muffin Shop')
+print()
+coffee = int(input('Number of coffees bought?: '))
+print()
+muffin = int(input('Number of muffins bought?: '))
+print()
+stars = ('*')*36
+print()
+print()
+stars = ('*')*36
+print()
+print(My Coffee and Muffin shop receipts)
+`
