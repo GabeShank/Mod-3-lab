@@ -1,4 +1,5 @@
 stars = ('*')*36
+print(stars)
 print()
 print('My Coffee and Muffin Shop')
 print()
@@ -6,10 +7,16 @@ coffee = int(input('Number of coffees bought?: '))
 print()
 muffin = int(input('Number of muffins bought?: '))
 print()
-stars = ('*')*36
+print(stars)
 print()
 print()
-stars = ('*')*36
+print(stars)
 print()
-print(My Coffee and Muffin shop receipts)
-`
+print('My Coffee and Muffin shop receipts')
+print(coffee, 'at 5 dollars each is:',coffee * 5)
+print(muffin, 'at 4 dollars each is:',muffin * 4)
+tax = .06*(coffee + muffin)
+print('6% tax is ',tax)
+print('------------')
+print('total is ',coffee*5 + muffin*5 + tax)
+print(stars)
