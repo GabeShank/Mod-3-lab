@@ -1,4 +1,0 @@
-latte = int(input('Number of lattes bought?: '))
-print()
-espresso = int(input('Number of espressos bought?: '))
-print()
